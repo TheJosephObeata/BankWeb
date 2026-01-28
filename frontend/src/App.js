@@ -9,6 +9,8 @@ import FeaturesPage from "@/pages/FeaturesPage";
 import CardsPage from "@/pages/CardsPage";
 import DashboardPage from "@/pages/DashboardPage";
 import ContactPage from "@/pages/ContactPage";
+import LoginPage from "@/pages/LoginPage";
+import SignUpPage from "@/pages/SignUpPage";
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
           <Route path="/cards" element={<CardsPage />} />
           <Route path="/dashboard" element={<DashboardPage />} />
           <Route path="/contact" element={<ContactPage />} />
+          <Route path="/login" element={<LoginPage />} />
+          <Route path="/signup" element={<SignUpPage />} />
         </Routes>
       </BrowserRouter>
       <Toaster position="top-right" richColors />

@@ -50,12 +50,16 @@ export const Navbar = () => {
 
           {/* Desktop CTA */}
           <div className="hidden lg:flex items-center gap-3">
-            <Button variant="ghost" size="default">
-              Login
-            </Button>
-            <Button variant="default" size="default">
-              Get Started
-            </Button>
+            <Link to="/login">
+              <Button variant="ghost" size="default">
+                Login
+              </Button>
+            </Link>
+            <Link to="/signup">
+              <Button variant="default" size="default">
+                Get Started
+              </Button>
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -95,12 +99,16 @@ export const Navbar = () => {
             </Link>
           ))}
           <div className="pt-4 flex flex-col gap-2 border-t border-border mt-4">
-            <Button variant="ghost" className="w-full justify-center">
-              Login
-            </Button>
-            <Button variant="default" className="w-full justify-center">
-              Get Started
-            </Button>
+            <Link to="/login" onClick={() => setIsMenuOpen(false)}>
+              <Button variant="ghost" className="w-full justify-center">
+                Login
+              </Button>
+            </Link>
+            <Link to="/signup" onClick={() => setIsMenuOpen(false)}>
+              <Button variant="default" className="w-full justify-center">
+                Get Started
+              </Button>
+            </Link>
           </div>
         </div>
       </div>
