@@ -293,3 +293,5 @@ agent_communication:
     message: "Starting comprehensive frontend testing of OsajeBank prototype. Will test all navigation, page functionality, form interactions, and responsive design across multiple viewports."
   - agent: "testing"
     message: "TESTING COMPLETED SUCCESSFULLY ✅ All 8 frontend tasks have been thoroughly tested and are working correctly. Navigation, all pages, forms, responsive design, and user interactions are fully functional. The OsajeBank prototype is ready for production use."
+  - agent: "testing"
+    message: "Starting testing of newly added Login and Sign Up pages. Will test authentication forms, navigation integration, password validation, social login buttons, and mobile responsiveness for auth pages."
