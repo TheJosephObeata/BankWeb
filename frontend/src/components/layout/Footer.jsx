@@ -87,7 +87,7 @@ export const Footer = () => {
               </span>
             </Link>
             <p className="text-card/70 text-sm mb-6 max-w-sm">
-              Secure digital banking made simple. Experience the future of finance with OsajeBank's innovative platform.
+              Secure digital banking made simple. Experience the future of finance with OsajeBank&apos;s innovative platform.
             </p>
             <div className="flex items-center gap-3">
               {socialLinks.map((social) => (

@@ -109,7 +109,7 @@ export default function ContactPage() {
               Get in Touch
             </span>
             <h1 className="text-4xl sm:text-5xl font-bold font-display text-foreground mb-4">
-              We'd Love to{' '}
+              We&apos;d Love to{' '}
               <span className="text-primary">Hear From You</span>
             </h1>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
@@ -149,7 +149,7 @@ export default function ContactPage() {
                   Send Us a Message
                 </h2>
                 <p className="text-muted-foreground mb-8">
-                  Fill out the form below and we'll get back to you as soon as possible.
+                  Fill out the form below and we&apos;ll get back to you as soon as possible.
                 </p>
 
                 {isSubmitted ? (
@@ -161,7 +161,7 @@ export default function ContactPage() {
                       Message Sent!
                     </h3>
                     <p className="text-muted-foreground">
-                      Thank you for reaching out. We'll respond within 24 hours.
+                      Thank you for reaching out. We&apos;ll respond within 24 hours.
                     </p>
                   </div>
                 ) : (

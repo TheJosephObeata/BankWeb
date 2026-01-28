@@ -92,7 +92,7 @@ export const CardsSection = () => {
                 OsajeBank Credit
               </h3>
               <p className="text-muted-foreground mb-6">
-                Premium rewards and protection for life's bigger purchases.
+                Premium rewards and protection for life&apos;s bigger purchases.
               </p>
               
               <ul className="space-y-3 mb-8">
