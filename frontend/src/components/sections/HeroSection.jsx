@@ -59,13 +59,17 @@ export const HeroSection = () => {
               className="flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start mb-10 animate-fade-in-up"
               style={{ animationDelay: '300ms' }}
             >
-              <Button variant="premium" size="xl">
-                Get Started Free
-                <ArrowRight className="w-5 h-5 ml-2" />
-              </Button>
-              <Button variant="outline" size="xl">
-                Login to Account
-              </Button>
+              <Link to="/signup">
+                <Button variant="premium" size="xl">
+                  Get Started Free
+                  <ArrowRight className="w-5 h-5 ml-2" />
+                </Button>
+              </Link>
+              <Link to="/login">
+                <Button variant="outline" size="xl">
+                  Login to Account
+                </Button>
+              </Link>
             </div>
 
             {/* Trust Badges */}
